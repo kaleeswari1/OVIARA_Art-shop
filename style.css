@@ -1,0 +1,517 @@
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:#f7f2e9;color:#292521;font-family:"DM Sans",sans-serif;line-height:1.6}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}button{cursor:pointer}.topbar{background:#292521;color:#f7f2e9;text-align:center;padding:8px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase}header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;position:sticky;top:0;z-index:20;background:rgba(247,242,233,.94);backdrop-filter:blur(12px);border-bottom:1px solid #ddd4c7}.logo{font:700 31px "Cormorant Garamond",serif;letter-spacing:5px}.logo sup{font:8px "DM Sans"}nav{display:flex;gap:27px;font-size:11px;text-transform:uppercase;letter-spacing:1px}nav a:hover{border-bottom:1px solid}.actions{display:flex;gap:12px}.actions button,.menu{border:0;background:none;font-size:18px}.actions i{font-style:normal;font-size:9px}.menu{display:none}.hero{min-height:calc(100vh - 110px);display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:75px 8%;gap:5vw}.eyebrow{font-size:10px;letter-spacing:2.4px;text-transform:uppercase;color:#746d65;font-weight:600;margin-bottom:16px}h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:600;line-height:.9}h1{font-size:clamp(62px,8vw,112px)}h2{font-size:clamp(50px,6vw,78px)}em{font-style:italic}.lead{max-width:520px;color:#746d65;margin:28px 0}.buttons{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:16px;border:1px solid #292521;padding:13px 21px;background:#fffdf8;text-transform:uppercase;letter-spacing:1px;font-size:10px}.btn.dark{background:#292521;color:#fff}.btn.dark:hover{background:#a96350;border-color:#a96350}.btn.light{background:#f7f2e9;color:#292521}.btn.outline{background:transparent;color:#fff;border-color:#fff}.story{font:italic 20px "Cormorant Garamond";margin-top:38px}.hero-visual{height:620px;display:flex;align-items:center;justify-content:center;position:relative}.hero-card{height:540px;width:min(440px,82%);background:#e7ddcf;border:12px solid #fff;box-shadow:0 25px 55px #33281c24;transform:rotate(2deg);overflow:hidden;position:relative;z-index:2}.hero-card img,.artist-photo img,.about-photo img,.gallery-item img{width:100%;height:100%;object-fit:cover}.fallback{height:100%;width:100%;display:none;align-items:center;justify-content:center;flex-direction:column;text-align:center;background:linear-gradient(135deg,#e3d1c2,#b99a8d);padding:20px}.fallback small{font-size:9px;letter-spacing:3px;color:#62584f}.fallback strong{font:600 43px/0.9 "Cormorant Garamond";margin:12px 0}.fallback span{font-size:9px;color:#746d65}.blob{position:absolute;border-radius:50% 45% 52% 48%}.blob1{width:280px;height:350px;background:#d1afa2;left:3%;top:10%;transform:rotate(25deg)}.blob2{width:210px;height:260px;background:#777a65;right:3%;bottom:7%;transform:rotate(-25deg)}.note{position:absolute;right:0;bottom:8%;background:#fffdf8;padding:18px 23px;z-index:3;box-shadow:0 15px 35px #0002;font-size:10px;color:#a96350}.note b{font:22px/0.9 "Cormorant Garamond";color:#292521}.dark-intro{background:#292521;color:#f7f2e9;text-align:center;padding:130px 15%}.dark-intro .eyebrow{color:#aaa29a}.dark-intro h2{margin-bottom:28px}.dark-intro>p:last-child{max-width:600px;margin:auto;color:#aaa29a}.section{padding:105px 7%}.heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:45px}.filters{display:flex;gap:6px;flex-wrap:wrap}.filters button{background:none;border:1px solid #d5ccbf;padding:8px 13px;font-size:9px;text-transform:uppercase;letter-spacing:1px}.filters button.active,.filters button:hover{background:#292521;color:#fff;border-color:#292521}.products{display:grid;grid-template-columns:repeat(3,1fr);gap:35px 20px}.product-image{height:420px;overflow:hidden;background:#e6dbcd;position:relative}.product-image img{transition:.6s}.product:hover img{transform:scale(1.05)}.product-info{padding:15px 0}.product-info h3{font-size:27px}.meta{display:flex;justify-content:space-between;color:#746d65;font-size:10px;text-transform:uppercase;letter-spacing:1px}.add{border:0;border-bottom:1px solid #292521;background:none;padding:8px 0;font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-top:12px}.artist{display:grid;grid-template-columns:1fr 1fr;gap:9vw;align-items:center;background:#e9e1d5}.artist-photo{height:600px;background:#fff;padding:14px;box-shadow:0 20px 45px #0001;transform:rotate(-2deg);overflow:hidden}.artist-text{max-width:530px}.artist-text>p:not(.eyebrow){color:#746d65;margin:25px 0}.signature{font:italic 38px "Cormorant Garamond";margin-top:35px}.artist-text small,.about small{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#746d65}.link{display:inline-block;margin-top:28px;border-bottom:1px solid;padding-bottom:4px;font-size:10px;text-transform:uppercase;letter-spacing:1px}.gallery-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr;grid-template-rows:300px 300px;gap:14px}.gallery-item{overflow:hidden;background:#e5d9cb}.gallery-item.big{grid-row:span 2}.gallery-item img{transition:.5s}.gallery-item:hover img{transform:scale(1.04)}.center{text-align:center}.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:50px}.category-grid a{height:310px;padding:23px;display:flex;flex-direction:column;justify-content:space-between;transition:.4s;background:#d5b7aa}.category-grid a:nth-child(2){background:#b9baa2}.category-grid a:nth-child(3){background:#d7c5a5}.category-grid a:nth-child(4){background:#bca99e}.category-grid a:hover{transform:translateY(-8px);box-shadow:0 20px 40px #0002}.category-grid h3{font-size:39px;line-height:.88}.category-grid span{font-size:10px;text-transform:uppercase;letter-spacing:1px}.custom{background:#292521;color:#f7f2e9;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8vw;padding:100px 8%;overflow:hidden}.custom .eyebrow{color:#aaa29a}.custom-circle{height:480px;display:flex;justify-content:center;align-items:center}.custom-circle>div{width:360px;height:360px;border-radius:50%;background:#c18c78;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transform:rotate(-8deg);box-shadow:22px 25px 0 #6c705d}.custom-circle small{letter-spacing:4px}.custom-circle strong{font:56px/0.8 "Cormorant Garamond";margin-top:15px}.custom-text{max-width:520px}.custom-text>p:not(.eyebrow){color:#aaa29a;margin:25px 0}.steps{border-top:1px solid #4d4944;margin:30px 0}.steps span{display:block;border-bottom:1px solid #4d4944;padding:11px 0;font-size:11px}.steps b{color:#c18c78;margin-right:25px}.about{display:grid;grid-template-columns:1fr 1fr;gap:9vw;align-items:center}.about>div:first-child{max-width:540px}.about>div:first-child>p:not(.eyebrow){color:#746d65;margin:22px 0}.about-photo{height:560px;background:#fff;padding:14px;box-shadow:0 20px 45px #0001;transform:rotate(2deg)}.quiz{background:#d8c3b7;text-align:center;padding:100px 7%}.quiz h2{margin-bottom:30px}.quiz p:not(.eyebrow){font:27px "Cormorant Garamond"}.options{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:20px}.options button{background:none;border:1px solid #7d6b63;padding:11px 22px;text-transform:uppercase;font-size:9px;letter-spacing:1px}.options button:hover{background:#292521;color:#fff}.quiz h3{font-size:35px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:9vw;background:#e8e0d4}.contact p:not(.eyebrow){color:#746d65;max-width:500px;margin:25px 0}.email{font:26px "Cormorant Garamond";border-bottom:1px solid}.contact form,.modalbox form{display:grid;gap:18px}.contact label{font-size:9px;text-transform:uppercase;letter-spacing:1.2px;color:#746d65}.contact input,.contact textarea,.modalbox input,.modalbox textarea,.modalbox select{width:100%;border:0;border-bottom:1px solid #cfc4b7;background:transparent;padding:11px 0;outline:0;resize:vertical}.newsletter{background:#c89f95;padding:75px 7%;display:flex;justify-content:space-between;align-items:center;gap:30px}.newsletter h2{font-size:55px}.newsletter form{display:flex;min-width:390px;border-bottom:1px solid}.newsletter input{flex:1;border:0;background:none;outline:0;padding:13px}.newsletter button{border:0;background:none;font-size:9px;text-transform:uppercase;letter-spacing:1px}.final{min-height:570px;background:linear-gradient(#29252199,#29252199),url("images/final.jpg") center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:50px}.final h2{font-size:85px;margin-bottom:30px}.final .btn{margin:5px}footer{background:#292521;color:#f7f2e9;padding:65px 7% 25px;display:grid;grid-template-columns:1fr 1fr;gap:50px}footer p{color:#aaa29a;font-size:12px}.footerlinks{display:flex;gap:25px;flex-wrap:wrap;align-items:center}.footerlinks a{font-size:10px;text-transform:uppercase;letter-spacing:1px}footer>small{grid-column:1/-1;border-top:1px solid #4b4641;padding-top:18px;color:#89827a;font-size:9px}.modal{position:fixed;inset:0;background:#0008;display:none;align-items:center;justify-content:center;padding:20px;z-index:50}.modal.show{display:flex}.modalbox{background:#f7f2e9;width:min(550px,100%);padding:45px;position:relative}.modalbox h2{margin-bottom:25px}.modalbox #close{position:absolute;right:20px;top:12px;border:0;background:none;font-size:28px}.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,30px);background:#292521;color:#fff;padding:12px 20px;font-size:10px;opacity:0;transition:.3s;z-index:100}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:900px){nav{gap:12px}.hero{grid-template-columns:1fr}.hero-visual{height:480px;order:-1}.products{grid-template-columns:1fr 1fr}.category-grid{grid-template-columns:1fr 1fr}.artist,.custom,.about,.contact{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:300px 300px}.gallery-item.big{grid-row:span 2}}
+@media(max-width:650px){header{height:68px}.menu{display:block;order:2;font-size:20px}nav{display:none;position:absolute;top:68px;left:0;right:0;background:#f7f2e9;padding:25px 7%;flex-direction:column;border-bottom:1px solid #ddd4c7}nav.show{display:flex}.actions button:first-child,.actions button:nth-child(2){display:none}.hero{padding:50px 6%}.hero-visual{height:390px}.hero-card{height:350px}.section{padding:75px 6%}.heading{display:block}.filters{margin-top:25px}.products{grid-template-columns:1fr}.product-image{height:400px}.artist-photo,.about-photo{height:430px}.gallery-grid{grid-template-columns:1fr;grid-template-rows:300px 300px 300px}.gallery-item.big{grid-row:auto}.category-grid{grid-template-columns:1fr 1fr}.category-grid a{height:230px}.category-grid h3{font-size:29px}.custom{padding:75px 6%}.custom-circle{height:350px}.custom-circle>div{width:270px;height:270px}.custom-circle strong{font-size:43px}.newsletter{display:block}.newsletter form{min-width:0;margin-top:25px}.final h2{font-size:58px}footer{grid-template-columns:1fr}.footerlinks{grid-column:1}.final{min-height:480px}}
+/* OVIARA CART & WISHLIST PANELS */
+
+.side-panel {
+    position: fixed !important;
+    top: 0 !important;
+    right: -450px !important;
+
+    width: 420px;
+    max-width: 90vw;
+    height: 100vh;
+
+    background: #f7f2e9;
+    color: #292521;
+
+    z-index: 99999;
+
+    padding: 35px;
+
+    overflow-y: auto;
+
+    box-shadow: -15px 0 40px rgba(0,0,0,0.18);
+
+    transition: right 0.4s ease;
+}
+
+.side-panel.open {
+    right: 0 !important;
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #d8cec1;
+}
+
+.panel-header h2 {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+}
+
+.panel-header button {
+    border: none;
+    background: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 75px 1fr auto;
+    gap: 15px;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #ddd4c7;
+}
+
+.cart-item img {
+    width: 75px;
+    height: 85px;
+    object-fit: cover;
+    background: #ded2c4;
+}
+
+.cart-item h3 {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 24px;
+}
+
+.cart-item p {
+    margin: 3px 0;
+    color: #746d65;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.quantity button {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #aaa;
+    background: transparent;
+    cursor: pointer;
+}
+
+.remove {
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cart-bottom {
+    margin-top: 30px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    width: 100%;
+    padding: 16px;
+
+    border: none;
+
+    background: #292521;
+    color: white;
+
+    cursor: pointer;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+.empty {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.empty div {
+    font-size: 45px;
+}
+
+.empty h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+}
+
+.empty p {
+    color: #746d65;
+    font-size: 12px;
+}
+
+.heart-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.9);
+
+    font-size: 22px;
+    cursor: pointer;
+
+    z-index: 10;
+}
+/* =========================
+   OVIARA SEARCH OVERLAY
+========================= */
+
+.search-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+
+    width: 100vw !important;
+    height: 100vh !important;
+
+    background: #f7f2e9;
+
+    z-index: 999999 !important;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+}
+
+.search-overlay.show {
+    display: flex !important;
+}
+
+.search-overlay > div {
+    width: min(750px, 90vw);
+}
+
+.search-overlay .eyebrow {
+    margin-bottom: 15px;
+}
+
+.search-overlay h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: clamp(55px, 8vw, 90px);
+    line-height: .9;
+    margin-bottom: 40px;
+}
+
+.search-overlay input {
+    width: 100%;
+
+    padding: 18px 0;
+
+    border: none;
+    border-bottom: 1px solid #292521;
+
+    background: transparent;
+
+    outline: none;
+
+    font-size: 18px;
+}
+
+.search-overlay input::placeholder {
+    color: #8b8279;
+}
+
+.search-close {
+    position: absolute !important;
+
+    top: 25px !important;
+    right: 35px !important;
+
+    border: none;
+    background: transparent;
+
+    font-size: 38px;
+
+    cursor: pointer;
+
+    z-index: 1000000;
+}
+
+.search-result {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #ddd4c7;
+}
+
+.search-result span {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+}
+
+.search-result b {
+    font-size: 12px;
+}
+
+.no-result {
+    padding-top: 25px;
+    color: #746d65;
+}
+/* FINAL SECTION BUTTONS */
+
+.final .btn {
+    background: #f7f2e9;
+    color: #292521;
+    border: 1px solid #f7f2e9;
+}
+
+.final .btn:hover {
+    background: #c18c78;
+    color: #ffffff;
+    border-color: #c18c78;
+}
+
+.final .btn.outline {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.final .btn.outline:hover {
+    background: #ffffff;
+    color: #292521;
+}
+/* =================================
+   OVIARA - MY ART / ORIGINALS
+================================= */
+
+/* OVIARA - ORIGINALS BY KALEESWARI */
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center;
+    background: #eee7dc;
+}
+
+.gallery-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 380px;
+    gap: 18px;
+}
+
+.gallery-item.big {
+    grid-row: auto;
+}
+/* =====================================
+   OVIARA - 5 ORIGINAL ARTWORKS
+===================================== */
+
+.gallery-grid {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 18px !important;
+    width: 100%;
+}
+
+.gallery-item {
+    width: 100% !important;
+    height: 430px !important;
+    overflow: hidden;
+    background: #eee7dc;
+}
+
+.gallery-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    display: block;
+}
+
+/* Tablet */
+@media (max-width: 1100px) {
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
+    }
+
+    .gallery-item {
+        height: 300px !important;
+    }
+
+}
+/* =========================================
+   OVIARA COLLECTION - ARTWORK CARDS
+========================================= */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+/* Individual card */
+
+.product {
+    background: #f8f4ec;
+    border: 1px solid #d8cec0;
+    padding: 12px;
+    border-radius: 2px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+
+.product:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(40, 35, 30, 0.12);
+}
+
+/* Image container */
+
+.product-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background: #eee8dd;
+    border: 1px solid #ddd3c5;
+}
+
+/* Actual artwork */
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Product information */
+
+.product-info {
+    padding: 18px 8px 10px;
+}
+
+.product-info h3 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Price/category */
+
+.product-info .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-info .meta span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.product-info .meta b {
+    font-size: 15px;
+}
+
+/* Add to bag */
+
+.product-info .add {
+    width: 100%;
+    padding: 11px 15px;
+    border: 1px solid #292522;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.product-info .add:hover {
+    background: #292522;
+    color: white;
+}
+
+/* Wishlist button */
+
+.product-image .heart-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #d8cec0;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 2;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+
+    .product-image {
+        height: 320px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .products {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 10px;
+    }
+
+    .product-image {
+        height: 360px;
+    }
+
+}
