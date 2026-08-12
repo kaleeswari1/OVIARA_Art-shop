@@ -4,7 +4,7 @@ const products = [
         n: "✏️ Pencil Sketches",
         c: "pencil",
         p: 850,
-        img: "images/pencil.jpg"
+        img: "pencil.jpg"
     },
 
     {
@@ -12,7 +12,7 @@ const products = [
         n: "🎨 Oil Pastels",
         c: "oilpastel",
         p: 1200,
-        img: "images/oilpastel.jpg"
+        img: "oilpastel.jpg"
     },
 
     {
@@ -20,7 +20,7 @@ const products = [
         n: "💧 Watercolor Art",
         c: "watercolor",
         p: 1000,
-        img: "images/watercolor.jpg"
+        img: "watercolor.jpg"
     },
 
     {
@@ -28,7 +28,7 @@ const products = [
         n: "🖌️ Acrylic Paintings",
         c: "acrylic",
         p: 1500,
-        img: "images/acrylic.jpg"
+        img: "acrylic.jpg"
     },
 
     {
@@ -36,7 +36,7 @@ const products = [
         n: "🌀 Abstract Art",
         c: "abstract",
         p: 1300,
-        img: "images/abstract.jpg"
+        img: "abstract.jpg"
     }
 ];
 
